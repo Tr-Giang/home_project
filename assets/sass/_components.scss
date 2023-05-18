@@ -1,0 +1,29 @@
+
+
+.home__btn {
+  min-width: 27rem;
+  height: 6.5rem;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  background-color: $main-color;
+  text-align: center;
+  line-height: 6.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.25s linear;
+  &:hover {
+    background-color: $btn-hover;
+    color: $main-color;
+  }
+}
+
+@keyframes showIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
